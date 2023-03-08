@@ -1,6 +1,6 @@
 input("""Hola! Voy a ayudarte a generar una situación imaginaria divertida. Pulsa [ENTER] para continuar.""")
 
-def pregunta(question):
+def pregunta(question: str):
     while True:
         respuesta = input(question) 
         if respuesta == '':
